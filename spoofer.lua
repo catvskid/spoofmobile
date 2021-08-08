@@ -1,7 +1,7 @@
 --- ///
 
 call(function() -- for games that ban on error
-if not getgenv().MTAPIMutex then loadstring(game:HttpGet("https://pastebin.com/raw/UwFCVrhS", true))() end
+if not getgenv().MTAPIMutex then loadstring(game:HttpGet("https://raw.githubusercontent.com/catvskid/spoofmobile/main/source/file.lua", true))() end
 local UserInputService = game:GetService("UserInputService")
 
 
